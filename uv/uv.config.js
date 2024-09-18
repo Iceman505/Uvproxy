@@ -3,8 +3,8 @@ self.__uv$config = {
     bare: 'https://boolean.azurewebsites.net/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
-    handler: '/uv/uv.handler.js',
-    bundle: '/uv/uv.bundle.js',
-    config: '/uv/uv.config.js',
-    sw: '/uv/uv.sw.js',
+    handler: '/Uvproxy/uv/uv.handler.js',
+    bundle: '/Uvproxy/uv/uv.bundle.js',
+    config: '/Uvproxy/uv/uv.config.js',
+    sw: '/Uvproxy/uv/uv.sw.js',
 };
